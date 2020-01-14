@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 `
 
 // eslint-disable-next-line react/prop-types
-export const wrapRootElement = ({ element }) => (
+export const wrapPageElement  = ({ element }) => (
   // eslint-disable-next-line react/jsx-filename-extension
   <>
     <GlobalStyle />
